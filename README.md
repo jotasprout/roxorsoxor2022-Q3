@@ -1,8 +1,3 @@
-# RoxorSoxor
+# RoxorSoxor 2023
 
-New Host New World
-
-## 2022 Quarter 3
-
-- Much new org
-- much more org needed
+Waking up.
