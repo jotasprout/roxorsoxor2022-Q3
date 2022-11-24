@@ -73,10 +73,11 @@
     
   </head>
   <body>
-      
-  <h1>Newest jQuery, Bootstrap, MixItUp</h1>
+<!--
+    <h1>Newest jQuery, Bootstrap, MixItUp</h1>
 
   <hr class="my-5">
+-->
 
             <div class="controls">
                 <button type="button" class="control" data-filter="all">All</button>
@@ -97,15 +98,19 @@
                 <button type="button" class="control" data-filter=".write-20">Writing</button>                         
             </div>
 
-<div class="container">
-  <hr class="my-5">
+<div id="portfolio" class="container">
+
 
   <div class="row row-cols-1 row-cols-md-4 g-4">
 
     <div class="col mix vid-4">
       <div class="card h-100">
         <a href="https://www.youtube.com/watch?v=bBti5Mgpt9Q" class="html5lightbox" data-width=870 data-height=500>
-        <img class="card-img-top" src="portfolio/thumbs/tgh-thumbs/pso-Thumb.jpg" width="100%"></a>
+        <img class="card-img-top" src="portfolio/thumbs/tgh-thumbs/pso-Thumb.jpg" width="100%">
+        <div class="overlay">
+          <h3>Patient Safety Organizations<br>Video</h3>
+          <i class="ion-ios-plus-empty"></i>
+        </div></a>
         <div class="card-body">
           <h5 class="card-title">Video</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -405,7 +410,8 @@
     <script src="js/lightbox.js"></script>
     -->
     
-    <script src="js/html5lightbox.js"></script>      
+    <script src="js/html5lightbox.js"></script>   
+ 
     
 
   </body>

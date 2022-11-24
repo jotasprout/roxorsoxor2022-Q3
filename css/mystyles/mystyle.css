@@ -1,3 +1,107 @@
 #html5-watermark {
     display: none !important;
 }
+
+#portfolio .mix div:hover .overlay {
+    opacity: 1;
+  }
+  #portfolio .mix div:hover .overlay i {
+    top: 40%;
+    opacity: 1;
+  }
+  #portfolio .mix div:hover .overlay h3 {
+    bottom: 50%;
+    opacity: 1;
+  }
+  #portfolio .mix div .overlay {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    bottom: 248px;
+    right: 23px;
+    background: rgba(128, 214, 163, 0.85);
+    transition: 0.3s;
+    text-align: center;
+    opacity: 0;
+  }
+  #portfolio .mix div .overlay h3,
+  #portfolio .mix div .overlay i {
+    color: #fff;
+    
+  }
+  #portfolio .mix div .overlay h3 {
+    bottom: 30%;
+    left: 50%;
+    opacity: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    transition: 0.3s;
+    position: absolute;
+    transition-delay: 0.1s;
+    transform: translateX(-50%);
+  }
+  #portfolio .mix div .overlay i {
+    top: 30%;
+    opacity: 0;
+    left: 50%;
+    font-size: 50px;
+    transition: 0.3s;
+    transition-delay: 0s;
+    position: absolute;
+    transform: translate(-50%, 50%);
+  }
+  #portfolio .mix div .overlay .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #counter {
+    background: url(../img/counter-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+  }
+  #counter:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.72);
+  }
+  #counter .title {
+    position: relative;
+  }
+  #counter .title h2 ,#counter .title p {
+    color: #fff;
+  }
+  #counter .block {
+    margin-bottom: 20px;
+  }
+  #counter .block i {
+    display: block;
+    font-size: 40px;
+    line-height: 1;
+    padding-bottom: 20px;
+    color: #80d6a3;
+  }
+  #counter .block span {
+    line-height: 1;
+    display: inline-block;
+    color: #fff;
+  }
+  #counter .block .count-text {
+    font-size: 36px;
+  }
+  #counter .block p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 20px;
+  }

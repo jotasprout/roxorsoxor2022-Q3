@@ -18,7 +18,7 @@ body {
 .controls {
     padding: 1rem;
     background: #333;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .control {
@@ -30,7 +30,7 @@ body {
     height: 2.7rem;
     background: #444;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
     color: white;
     transition: background 150ms;
 }
