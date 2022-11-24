@@ -1,6 +1,4 @@
 /*
-TEST I am taking these out so I can try using these styles for the controls. 
-
 html,
 body {
     height: 100%;
@@ -12,10 +10,7 @@ body {
 *:after {
     box-sizing: border-box;
 }
-
 */
-
-
 
 /* Controls
 ---------------------------------------------------------------------- */
@@ -32,7 +27,6 @@ body {
     /*
     width: 2.7rem; 
     */
-    
     height: 2.7rem;
     background: #444;
     cursor: pointer;
@@ -44,7 +38,7 @@ body {
 .control:hover {
     background: #3f3f3f;
 }
-
+/*
 .control[data-filter]:after {
     content: '';
     position: absolute;
@@ -57,7 +51,7 @@ body {
     background: currentColor;
     transition: background-color 150ms, border-color 150ms;
 }
-
+*/
 .control[data-sort]:after {
     content: '';
     position: absolute;
@@ -76,6 +70,7 @@ body {
 
 .mixitup-control-active {
     background: #393939;
+    color: rgb(0, 255, 0);
 }
 
 .mixitup-control-active[data-filter]:after {
