@@ -16,9 +16,10 @@ body {
 ---------------------------------------------------------------------- */
 /* */
 .controls {
-    padding: 1rem;
+    padding: 1.5rem;
     background: #333;
     font-size: 18px;
+    margin-top: 1rem;
 }
 
 .control {

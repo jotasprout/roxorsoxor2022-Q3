@@ -57,7 +57,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
+/*
   #counter {
     background: url(../img/counter-bg.jpg) no-repeat;
     background-size: cover;
@@ -105,7 +105,7 @@
     color: #fff;
     padding-top: 20px;
   }
-
+*/
   /* New Counter Stuff */
 
   .container{
