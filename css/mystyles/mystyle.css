@@ -114,7 +114,7 @@
 */
 
 #counter-container {
-    background: url(/img/counter-bg.jpg) no-repeat;
+    background: url(./img/counter-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
