@@ -2,6 +2,60 @@
     display: none !important;
 }
 
+/* ==================
+ *
+ *  Global Class 
+ *
+ *===================*/
+ .btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 12px 25px;
+    border-radius: 0;
+  }
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    background: transparent;
+  }
+  .title {
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  .title h2 {
+    color: #333;
+    font-size: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .title h2:before {
+      content: '';
+      width: 40px;
+      height: 2px;
+      background: #80d6a3;
+      position: absolute;
+      top: 12px;
+      left: -60px;
+  }
+  .title h2:after {
+      content: '';
+      width: 40px;
+      height: 2px;
+      background: #80d6a3;
+      position: absolute;
+      top: 12px;
+      right: -60px;
+  }
+  .title p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #817C7C;
+  }
+
 /* =================
    Container
    ================= */
@@ -251,6 +305,90 @@
 .counter-box.colored .counter {
 	color: #fff
 }  
+
+/* =================
+   header style
+   ================= */
+
+header {
+    padding: 20px 0;
+    background: #fff;
+  }
+
+  header .navbar {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .is-sticky #navigation {
+    background: #fff;
+    z-index: 1000;
+    transition: 0.3s;
+    width: 100%;
+    padding: 0;
+  }
+
+
+
+  .navbar-brand {
+    padding: 0;
+    height: auto;
+  }
+
+  .navbar-toggle {
+    border-color: #333;
+    transition: 0.3s;
+  }
+
+  .navbar-toggle .icon-bar {
+    background: #333;
+    transition: 0.3s;
+  }
+
+  .navbar-toggle:hover {
+    border-color: #80d6a3;
+  }
+
+  .navbar-toggle:hover .icon-bar {
+    background: #80d6a3;
+  }
+
+  .menu a {
+    color: #333;
+    transition: 0.3s;
+    position: relative;
+    font-size: 16px;
+  }
+  .menu a:before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    bottom: 12px;
+    width: 0;
+    height: 1px;
+    background: #80d6a3;
+    transition: 0.3s;
+  }
+  .menu a:hover {
+    background: transparent;
+    color: #80d6a3;
+  }
+  
+  .menu .active a {
+    color: #80d6a3;
+  }
+  
+  .menu .active a:before{
+    width: 25px;
+  }
+  
+  .menu a:hover:before {
+    width: 25px;
+  }
+
+/* =================
+   Portfolio
+   ================= */
 
 #portfolio .mix div:hover .overlay {
     opacity: 1;
