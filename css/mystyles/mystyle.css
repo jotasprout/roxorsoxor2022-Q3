@@ -6,14 +6,47 @@
    Container
    ================= */
 
+/*
+.container{
+    margin-top:100px;
+}
+*/
+
+#counter-container {
+    background: url(/img/counter-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#counter-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+
+#counter-container .title {
+    position: relative;
+}
+
+#counter-container .title h2 ,#counter-container .title p {
+    color: #fff;
+}
+
 #container {
-    background: url('../img/container.jpg');
+    background: url('/img/container.jpg');
     background-size: cover;
     padding: 250px 0;
     position: relative;
   }
 
-  #container:before {
+#container:before {
     position: absolute;
     z-index: 99;
     background: rgba(0, 0, 0, 0.50);
@@ -22,6 +55,83 @@
     right: 0;
     bottom: 0;
     content: '';
+}
+
+  .container .block {
+    position: relative;
+    z-index: 999;
+    color: #fff;
+  }
+
+  .container .block h1 {
+    padding-bottom: 25px;
+    font-size: 55px;
+    font-weight: 100;
+    color: #80d6a3;
+  }
+
+  .container .block h2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  .container .block .btn-learn {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0 7px;
+    padding: 10px 22px;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+
+  .container .block .btn-learn:hover {
+    border-color: #80d6a3;
+    color: #80d6a3;
+  }
+
+  .container .block .buttons {
+    margin-bottom: 50px;
+  }
+
+  .container .block .buttons a:first-child {
+    margin-left: 0;
+  }
+
+  #container .scrolldown {
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+  }
+
+  #container .scrolldown .scroll {
+    border-radius: 100px;
+    width: 25px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -15px;
+    display: inline-block;
+    border: 1px solid #fff;
+    z-index: 99;
+  }
+
+  #container .scrolldown .scroll:after {
+    background: #fff;
+    border-radius: 300px;
+    width: 4px;
+    height: 9px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin: 0 0 0 -2px;
+    display: block;
+    content: " ";
+    -webkit-animation: wiggle 0.5s linear 0s infinite alternate;
+    -moz-animation: wiggle 0.5s linear 0s infinite alternate;
+    -o-animation: wiggle 0.5s linear 0s infinite alternate;
+    animation: wiggle 0.5s linear 0s infinite alternate;
   }
 
 /* =================
@@ -69,76 +179,9 @@
   .col-md-12 .block .buttons a:first-child {
     margin-left: 0;
   }
-  #container .scrolldown {
-    position: absolute;
-    left: 50%;
-    bottom: 18%;
-  }
+  
 
-  #container .scrolldown .scroll {
-    border-radius: 100px;
-    width: 25px;
-    height: 45px;
-    position: absolute;
-    left: 50%;
-    margin: 0 0 0 -15px;
-    display: inline-block;
-    border: 1px solid #fff;
-    z-index: 99;
-  }
 
-  #container .scrolldown .scroll:after {
-    background: #fff;
-    border-radius: 300px;
-    width: 4px;
-    height: 9px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    margin: 0 0 0 -2px;
-    display: block;
-    content: " ";
-    -webkit-animation: wiggle 0.5s linear 0s infinite alternate;
-    -moz-animation: wiggle 0.5s linear 0s infinite alternate;
-    -o-animation: wiggle 0.5s linear 0s infinite alternate;
-    animation: wiggle 0.5s linear 0s infinite alternate;
-  }
-
-/* =================
-   Container
-   ================= */
-/*
-.container{
-    margin-top:100px;
-}
-*/
-
-#counter-container {
-    background: url(./img/counter-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    text-align: center;
-    padding: 100px 0;
-}
-
-#counter-container:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-}
-
-#counter-container .title {
-    position: relative;
-}
-
-#counter-container .title h2 ,#counter-container .title p {
-    color: #fff;
-}
 
 /*
   #counter .block {
