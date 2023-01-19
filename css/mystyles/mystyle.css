@@ -100,7 +100,7 @@
     position: relative;
   }
 
-#container:before {
+#counter-container:before {
     position: absolute;
     z-index: 99;
     background: rgba(0, 0, 0, 0.50);
@@ -328,7 +328,9 @@ header {
     padding: 0;
   }
 
-
+/* =================
+   NavBar
+   ================= */
 
   .navbar-brand {
     padding: 0;
@@ -389,6 +391,16 @@ header {
 /* =================
    Portfolio
    ================= */
+
+#portfolio .control {
+    background: none;
+    border: 0;
+    font-size: 15px;
+    color: #474747;
+    margin: 0 20px;
+    transition: 0.2s;
+    text-transform: uppercase;
+  }
 
 #portfolio .mix div:hover .overlay {
     opacity: 1;
