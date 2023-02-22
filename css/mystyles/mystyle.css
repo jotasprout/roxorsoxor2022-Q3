@@ -156,11 +156,11 @@
     color: #80d6a3;
   }
 
-  .container .block .buttons {
+  .container .block .exbuttons {
     margin-bottom: 50px;
   }
 
-  .container .block .buttons a:first-child {
+  .container .block .exbuttons a:first-child {
     margin-left: 0;
   }
 
@@ -237,11 +237,11 @@
     color: #80d6a3;
   }
 
-  .col-md-12 .block .buttons {
+  .col-md-12 .block .exbuttons {
     margin-bottom: 50px;
   }
 
-  .col-md-12 .block .buttons a:first-child {
+  .col-md-12 .block .exbuttons a:first-child {
     margin-left: 0;
   }
   
