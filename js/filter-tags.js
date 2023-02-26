@@ -1,5 +1,5 @@
 (function() {
-    var $divs = $('#gallery div');
+    var $divs = $('#gallery div .mix');
     var $buttons = $('#buttons');
     var tagged = {};
 
@@ -34,7 +34,7 @@
       $.each(tagged, function(tagName) {               // For each tag name
         $('<button/>', {    
           text: tagName,                               // Create empty button
-          //text: tagName + ' (' + tagged[tagName].length + ')',      // Add tag name
+          text: tagName + ' (' + tagged[tagName].length + ')',      // Add tag name
           click: function() {                          // Add click handler
             $(this)                                    // The button clicked on
               .addClass('active')                      // Make clicked item active
