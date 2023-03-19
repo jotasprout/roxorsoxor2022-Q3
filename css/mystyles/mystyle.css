@@ -118,13 +118,13 @@
 
   .container .row {
     position: relative;
-    z-index: 999;
+    z-index: 990;
     color: #fff;
   }
 
   .container .block {
     position: relative;
-    z-index: 999;
+    z-index: 990;
     color: #fff;
   }
 
@@ -205,7 +205,7 @@
 
   .col-md-12 .block {
     position: relative;
-    z-index: 999;
+    z-index: 990;
     color: #fff;
   }
 
@@ -518,3 +518,11 @@ header {
     font-weight: 300;
     color: #817C7C;
   }  
+
+  #gallery {
+    margin-top: 0;
+  }
+
+  #galleryinner {
+    margin-top: 0;
+  }
