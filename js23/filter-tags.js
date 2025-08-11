@@ -38,6 +38,7 @@
           click: function() {                          // Add click handler
             $(this)                                    // The button clicked on
               .addClass('active')                      // Make clicked item active
+
               .siblings()                              // Get its siblings
               .removeClass('active');                  // Remove active from siblings
             $divs                                      // With all of the images
